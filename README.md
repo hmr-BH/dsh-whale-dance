@@ -91,10 +91,10 @@ dsh plugin --profile <profile> add link:<本目录绝对路径>
 
 ### Release 包
 
-从 [Releases](https://github.com/hmr-BH/dsh-whale-dance/releases) 下载 `dsh-whale-dance-1.0.0.tgz`，然后：
+从 [Releases](https://github.com/hmr-BH/dsh-whale-dance/releases) 下载 `dsh-whale-dance-<版本>.tgz`，然后：
 
 ```sh
-dsh plugin --profile <profile> add ./dsh-whale-dance-1.0.0.tgz
+dsh plugin --profile <profile> add ./dsh-whale-dance-<版本>.tgz
 ```
 
 安装后重启 DSH 并刷新页面。后续只改 `client.js` 时刷新页面即可；改 `index.js` 需要重载插件。插件会检测页面里的动画版本，过旧时会提示先按 `Ctrl+F5`。

@@ -1,6 +1,6 @@
 {
   "name": "dsh-whale-dance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "在聊天里发一句歌词，AI 自动确认歌曲、按播放量挑 B 站版本、流式播放，小鲸鱼挂件抱着音响左右 Q 弹蹦迪：迪斯科球、全彩霓虹、金色光晕、整页转场，按 ESC 结束。",
   "keywords": [
     "dsh",

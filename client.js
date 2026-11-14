@@ -203,7 +203,7 @@ window.__ModuleLoader__.load({
       'border-left:1px solid rgba(150,200,255,.24);}',
       '.dwhd-vol-icon{font-size:13px;line-height:1;opacity:.9;min-width:14px;text-align:center;}',
       '.dwhd-vol-range{-webkit-appearance:none;appearance:none;width:96px;height:4px;border-radius:3px;',
-      'background:linear-gradient(90deg,#2fa8ff,#8b6bff,#ff7fc4);outline:none;cursor:pointer;',
+      'background:#2f7bff;outline:none;cursor:pointer;',
       'pointer-events:auto;touch-action:none;}',
       '.dwhd-vol-range::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:13px;height:13px;',
       'border-radius:50%;background:#f2fbff;border:1px solid rgba(120,200,255,.9);',
