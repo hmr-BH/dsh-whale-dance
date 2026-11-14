@@ -12,6 +12,7 @@ AI：已找到《朋友的酒》—— 李晓杰 / 玉萨，B 站 DJ 版，按 E
 ![版本](https://img.shields.io/github/v/release/hmr-BH/dsh-whale-dance?display_name=tag&sort=semver)
 ![npm](https://img.shields.io/npm/v/dsh-whale-dance)
 ![许可证](https://img.shields.io/github/license/hmr-BH/dsh-whale-dance)
+![Release](https://github.com/hmr-BH/dsh-whale-dance/actions/workflows/release.yml/badge.svg)
 
 ## 会看到什么
 
