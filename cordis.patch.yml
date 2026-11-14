@@ -1,0 +1,5 @@
+# dsh-whale-dance — bundle patch
+# 插入宿主半区：注册 AI 找歌工具、音频/状态路由与提示词引导。
+- insert:
+    - id: dsh-whale-dance
+      name: dsh-whale-dance

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Whale dancing under a disco ball">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#2b2a6b"/>
+      <stop offset="0.55" stop-color="#171634"/>
+      <stop offset="1" stop-color="#0b0a1c"/>
+    </radialGradient>
+    <radialGradient id="ball" cx="36%" cy="30%" r="68%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.28" stop-color="#bfe6ff"/>
+      <stop offset="0.62" stop-color="#6aa7ff"/>
+      <stop offset="1" stop-color="#2b3f9e"/>
+    </radialGradient>
+    <linearGradient id="whale" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67c6ff"/>
+      <stop offset="1" stop-color="#2a6fd8"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fe4ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#9fe4ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#bg)"/>
+  <path d="M128 62 L58 176 L198 176 Z" fill="url(#beam)"/>
+  <path d="M128 62 L98 176 L158 176 Z" fill="url(#beam)" opacity="0.7"/>
+  <circle cx="128" cy="56" r="26" fill="url(#ball)"/>
+  <ellipse cx="128" cy="54" rx="20" ry="6" fill="#ffffff" opacity="0.35" transform="rotate(-18 128 54)"/>
+  <circle cx="118" cy="47" r="5" fill="#ffffff" opacity="0.9"/>
+  <circle cx="141" cy="52" r="3.4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="128" cy="66" r="3" fill="#dff4ff" opacity="0.8"/>
+  <circle cx="68" cy="186" r="30" fill="#2c2b55"/>
+  <rect x="58" y="168" width="20" height="36" rx="5" fill="#3c3b70"/>
+  <circle cx="68" cy="176" r="8" fill="#8fe0ff" opacity="0.9"/>
+  <circle cx="68" cy="196" r="5" fill="#8fe0ff" opacity="0.65"/>
+  <ellipse cx="158" cy="196" rx="52" ry="30" fill="url(#whale)"/>
+  <path d="M116 186 C126 168 150 164 162 176 C176 190 200 186 208 174 C206 196 196 212 168 216 C142 219 124 208 116 186 Z" fill="url(#whale)"/>
+  <ellipse cx="156" cy="208" rx="34" ry="12" fill="#dfefff" opacity="0.85"/>
+  <circle cx="176" cy="188" r="5" fill="#0b1a3d"/>
+  <circle cx="177" cy="187" r="1.7" fill="#ffffff"/>
+  <path d="M199 168 C214 150 214 186 199 178" fill="#4aa8ef"/>
+  <path d="M148 138 L158 150" stroke="#ffd76a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M166 134 L172 148" stroke="#ff8fd1" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="128" cy="226" r="4" fill="#ffd76a" opacity="0.9"/>
+  <circle cx="156" cy="230" r="3" fill="#ff8fd1" opacity="0.8"/>
+  <circle cx="186" cy="228" r="2.4" fill="#8fe0ff" opacity="0.9"/>
+</svg>

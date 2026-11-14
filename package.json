@@ -1,0 +1,71 @@
+{
+  "name": "dsh-whale-dance",
+  "version": "1.0.0",
+  "description": "在聊天里发一句歌词，AI 自动确认歌曲、按播放量挑 B 站版本、流式播放，小鲸鱼挂件抱着音响左右 Q 弹蹦迪：迪斯科球、全彩霓虹、金色光晕、整页转场，按 ESC 结束。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "whale",
+    "dance",
+    "bilibili",
+    "disco"
+  ],
+  "author": "hmr-BH",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmr-BH/dsh-whale-dance.git"
+  },
+  "homepage": "https://github.com/hmr-BH/dsh-whale-dance#readme",
+  "bugs": {
+    "url": "https://github.com/hmr-BH/dsh-whale-dance/issues"
+  },
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs",
+    "assets/screenshots",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "screenshots.json"
+  ],
+  "scripts": {
+    "test": "node test/lookup.mjs && node test/routes.mjs && node test/stream.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-renderer"
+      ]
+    }
+  },
+  "icon": "./icon.svg",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Whale dance",
+    "description": "Send a lyric line in the chat box and the AI identifies the song, ranks Bilibili versions by views (the higher-viewed DJ or non-DJ version wins), streams the audio after about four seconds of prebuffering, then the real whale widget carries the speaker and bounces Q-elastically back and forth in the lower half of the window. Key lyrics are injected into the widget's own native bubble and cycled; the per-turn cost bubble is suppressed during the dance. A round faceted disco ball with a spinning halo, three sweeping colored rays, beat-scaled ball and floor light pool sits at the top centre; the composer, sidebar, sidebar rows, icons and right-aligned user bubbles get rainbow neon strips, the speaker has a warm gold halo and the composer a gold outline, the window pulses on each beat, and on one random beat of every 12 one of three whole-page transitions triggers at random (1.8s two turns, 3.6s one turn, or a 3.6s split with both halves spinning opposite ways). Press ESC or click Stop at the top right; the same bar has a volume slider whose level is remembered for next time. Requires the whale widget plugin (dsh-whale-widget); when missing it prompts you to install it and plays only music and lights.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+.pnpm-store/
+*.log
+debug.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+tmp-*.js
+*.win
+*.recovered
+artifacts/*.tmp
+artifacts/release-notes.md
