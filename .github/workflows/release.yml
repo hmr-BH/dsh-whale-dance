@@ -51,5 +51,18 @@ jobs:
           fi
           echo "Tag ${tag} matches package.json version ${pkg_version}."
 
+      - name: Check whether this version is already on npm
+        id: published
+        run: |
+          pkg="$(node -p "require('./package.json').name")"
+          version="$(node -p "require('./package.json').version")"
+          if npm view "${pkg}@${version}" version --registry=https://registry.npmjs.org >/dev/null 2>&1; then
+            echo "already=true" >> "${GITHUB_OUTPUT}"
+            echo "::notice::${pkg}@${version} is already published; skipping the publish step."
+          else
+            echo "already=false" >> "${GITHUB_OUTPUT}"
+          fi
+
       - name: Publish to npm
+        if: steps.published.outputs.already != 'true'
         run: npm publish --access public --provenance
